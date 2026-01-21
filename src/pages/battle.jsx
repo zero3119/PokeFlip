@@ -1,0 +1,3 @@
+/*
+page that displays the fight between pokemone
+*/
