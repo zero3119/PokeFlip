@@ -1,12 +1,16 @@
-/* This page will hold posible modes 
+import { useState } from "react";
+import React from "react";
 
-modes
+const Mode = () => {
+  const [mode, setMode] = useState("menu1");
+    return(
+        <div>
+            {mode === "menu1" && <p className="self-align:center">jkasbdgkjh</p>}
 
-against a friend
-    -random
-    -users choose
+        </div>
+    );
+    // This will be all in onw page now.
+}
 
-against computer
-    -user chooses
-    -random
-*/
+export default Mode;
+
